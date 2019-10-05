@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+     <meta charset="UTF-8">
+    <title>Triva Game</title>
+
+    <link rel = "stylesheet" href="assets/css/style.css">
+ </head>
+
+  <body>
+    <h1 id = "Title">The Office Trivia Game!</h1>
+    <div id="wrapper">
+     <div id = "timer"> </div>
+     <form id = "quiz" name = "quiz">
+        <p> In the pilot, Michael fake-fires Pam for "stealing staples". </p>
+        <input type = "radio" id = tf name = "question1" value = "true"> true
+        <input type = "radio" id = tf name = "question1" value = "false"> false
+        <br>
+        <p> Dwight wears a face mask during the office vs. warehouse basketball game. </p>
+        <input type = "radio" id = tf name = "question2" value = "true"> true
+        <input type = "radio" id = tf name = "question2" value = "false"> false
+       <br>
+        <p> Season 2 had 24 episodes. </p>
+        <input type = "radio" id = tf name = "question3" value = "true"> true
+        <input type = "radio" id = tf name = "question3" value = "false"> false
+        <br>
+        <p> Kevin, Angela, Gabe, and Creed's names were all based on their real names. </p>
+        <input type = "radio" id = tf name = "question4" value = "true"> true
+        <input type = "radio" id = tf name = "question4" value = "false"> false
+
+        <p> Jim Carrey Makes A Cameo On The Office. </p>
+        <input type = "radio" id = tf name = "question5" value = "true"> true
+        <input type = "radio" id = tf name = "question5" value = "false"> false <br>
+        <br>
+        <input id = "button" value = "finished" type = "button" onclick = "check();">
+
+       </form>
+
+       <div id = "submit">
+          <p id = "final message"> All Done</p>
+          <p id = "final-correct" ></p>
+          <p id = "final-wrong"> </p>
+
+         <script src = "assets/javascript/app.js">
+         </script>
+
+
+
+
+
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </form>
+
+  </body>
