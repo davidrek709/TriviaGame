@@ -1,0 +1,9 @@
+body{
+    background-image: url('../images/the\ office.jpg');
+}
+.container{
+    width: 80%;
+    text-align: center;
+    background-color: rgb(172, 223, 255);
+    margin-left: 100px;
+}
